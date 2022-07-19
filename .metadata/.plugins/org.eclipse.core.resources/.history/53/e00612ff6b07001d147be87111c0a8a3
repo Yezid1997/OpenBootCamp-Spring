@@ -1,0 +1,10 @@
+package com.example;
+
+public class CalculatorService {
+
+	private String holaMundo() {
+		return "Hola Mundo";
+		
+	}
+
+}

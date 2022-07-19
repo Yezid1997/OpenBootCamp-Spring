@@ -1,0 +1,16 @@
+package com.example;
+
+public class Coche {
+
+	// atibutos
+	private Long id;
+	private String manufacturer;
+	private String model;
+	private Integer year;
+	
+	// constructores
+	
+	// getters and setters
+
+	// toString
+}

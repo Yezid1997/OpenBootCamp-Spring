@@ -1,0 +1,31 @@
+package entregable1;
+
+public class TiposDeDatos {
+
+	public static void main(String[] args) {
+		byte byte1=1;
+		int entero = 0;
+		long long1 = 6L;
+		float float1 = 8.5f;
+		double double1 = 8.6;
+		char clar1 = 'C';
+		String string1 = "cadena";
+		boolean booleano = true;
+		String array1[]=new String[] {"string1","string2"};
+		
+		
+		
+	}
+	
+	private class Auto {
+		String marca;
+		String color;
+		String placa;
+		
+		public Auto(String marca, String color, String placa) {
+			this.marca = marca;
+			this.color = color;
+			this.placa = placa;
+		}
+	}
+}

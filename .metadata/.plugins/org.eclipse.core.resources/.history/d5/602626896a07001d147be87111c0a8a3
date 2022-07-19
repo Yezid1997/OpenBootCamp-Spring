@@ -1,0 +1,11 @@
+package com.example;
+
+public class CalculatorService {
+
+	public static void main(String[] args) {
+		public String holaMundo() {
+			return "Hola Mundo";
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/yezid/Documentos/SpringBoot Angular/ob_spring_scan/.git\:/home/yezid/Documentos/SpringBoot Angular/ob-spring-helloworld/.git\:/home/yezid/Documentos/SpringBoot Angular/ob_springjpa/.git\:
+GitRepositoriesView.GitDirectories.relative=ob_spring_scan/.git\:ob-spring-helloworld/.git\:ob_springjpa/.git\:
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

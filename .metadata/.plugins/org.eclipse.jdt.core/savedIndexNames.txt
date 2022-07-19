@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+/home/yezid/Documentos/SpringBoot Angular/.metadata/.plugins/org.eclipse.jdt.core
+2472346120.index
+4151712649.index
+318123632.index
+1615874127.index
+2501397348.index
+954345628.index
+2326473578.index
+3385661267.index
+3812155535.index
+3760435720.index
+1865797976.index
+2650547955.index
+3341120096.index
+2848026362.index
+596354913.index
+559412572.index
+1811472432.index
+1416728167.index
+2319058994.index
+1409710475.index
+3707993991.index
+2647893519.index
+662315864.index
