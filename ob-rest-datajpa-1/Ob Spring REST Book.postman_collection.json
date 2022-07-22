@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "a744cfd2-4e79-45dd-9d6d-4219e9c316f5",
+		"name": "Ob Spring REST Book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20699673"
+	},
+	"item": [
+		{
+			"name": "/hola",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8095/hola",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"hola"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear libro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": null,\n    \"title\": \"Libro Nuevo\",\n    \"author\": \"Yuval Noan\",\n    \"pages\": 600,\n    \"price\": 30.3,\n    \"releaseDate\": \"2013-12-01\",\n    \"online\": false\n}\n\n{\n    \"id\": null,\n    \"title\": \"Libro Nuevo 2\",\n    \"author\": \"Yuval Noan\",\n    \"pages\": 1000,\n    \"price\": 50.3,\n    \"releaseDate\": \"2015-12-01\",\n    \"online\": false\n}\n\n{\n    \"id\": null,\n    \"title\": \"Libro Nuevo 3\",\n    \"author\": \"Yuval Noan\",\n    \"pages\": 900,\n    \"price\": 30.3,\n    \"releaseDate\": \"2013-12-01\",\n    \"online\": false\n}\n\n{\n    \"id\": null,\n    \"title\": \"Libro Nuevo\",\n    \"author\": \"Yuval Noan\",\n    \"pages\": 600,\n    \"price\": 30.3,\n    \"releaseDate\": \"2013-12-01\",\n    \"online\": \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar libro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 2,\n    \"title\": \"Libro Nuevo _ actualizado\",\n    \"author\": \"Yuval Noan\",\n    \"pages\": 650,\n    \"price\": 30.3,\n    \"releaseDate\": \"2013-12-01\",\n    \"online\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8095/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8095",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver Libros",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar libro",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar todos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
